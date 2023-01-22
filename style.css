@@ -149,6 +149,7 @@ margin-top: 10px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 100px;
+  position: relative;
 
 }
 .section_5 p{
@@ -188,3 +189,79 @@ margin-top: 10px;
   font-size: 30px;
 }
 
+.button_botton_5{
+position: absolute;
+top:46pc;
+left:53pc;
+margin: 0 auto;
+padding: 10px 50px;
+background: rgb(247,65,123);
+background: linear-gradient(0deg, rgba(247,65,123,1) 0%, rgba(253,110,113,1) 100%);
+border: none;
+color: #FFFFFF;
+font-weight: 700;
+}
+/* !section___6 */
+.section_6{
+  height: 600px;
+  background-color: #FAFAFC;
+  padding: 100px 0;
+}
+
+.services_aria{
+  display: flex;
+ justify-content: space-around;
+
+}
+.services_aria li{
+  cursor: pointer;
+}
+.getInTouch{
+  margin-top: 6pc;
+}
+.section_6 .Btn1{
+  width: 150px;
+  background-color: #33D2FD;
+  font-weight: 700;
+  height: 55px;
+ 
+}
+
+.input2{
+  width: 500px;
+  margin: auto;
+}
+.contact_F{
+  margin: 4pc auto;
+  text-align: center;
+}
+#inputPassword2{
+  width: 500px;
+  margin-right: 10px;
+  border: none;
+  background-color: #adadaf;
+  height: 55px;
+  color: black;
+  font-weight: 600;
+}
+
+/*! Footer section  7 */
+
+.section_7{
+  background-color:#233148 ;
+  color: #FFFFFF;
+  height: 60px;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+footer i{
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+  
+}
