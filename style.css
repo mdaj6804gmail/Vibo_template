@@ -1,76 +1,86 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration:none;
-    list-style: none;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
-a{
-    text-decoration:none;
-
+a {
+  text-decoration: none;
 }
 
-.Top_section{
-    background: url(/img/Top-Background.png);
-    background-repeat: no-repeat;
-    background-size:100% 100%;
-    background-position:center center;
+.Top_section {
+  background: url(/img/Top-Background.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
   overflow: hidden;
-    height:750px ;
-
-
-   
+  height: 750px;
 }
 
-
-.nav li{
-    margin-left: 2rem;
+.nav li {
+  margin-left: 2rem;
 }
-.nav li a{
-    color: white;
-    font-weight: 600;
-
+.nav li a {
+  color: white;
+  font-weight: 600;
 }
 
-.section_2{
-    background: url(/img/section_2_Backgroud.png) ;
-    background-repeat: no-repeat;
+.section_2 {
+  background: url(/img/section_2_Backgroud.png);
+  background-repeat: no-repeat;
+
+  background-size: 100%;
+  background-position-y: 25%;
+  z-index: 1;
+  height: 850px;
+  display: block;
+}
+.phone-background {
+  background-image: url(/img/section_2_Backgroud.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 209px;
+}
+
+.fast-card-col {
+  margin-top: -4pc;
+}
+.main_card {
+  margin-top: 9pc;
+}
+.card_singles {
+  margin-left: 5pc;
+  margin-top: 3pc;
+}
+.single_card1 {
+  margin-bottom: 4pc;
   
-    background-size: 100% ;
-    background-position-y:22%;
-   z-index: 1;
-    height:750px ;
-    display: block;
-    
-}
-.phone-background{
-    background-image: url(/img/section_2_Backgroud.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-y:209px;
 }
 
-
-.fast-card-col{
-margin-top: -4pc;
-}
-.main_card{
-    margin-top: 9pc;  
-}
-.card_singles{
-    margin-left: 5pc;
-    margin-top: 3pc;
-}
-.single_card1{
-    margin-bottom: 4pc;
+.card-img-size {
+  width: 50px;
+  margin: auto;
+  margin-top: 10px;
 }
 
+.phone_img_2nd {
+  height: 470px;
+}
+.card p{
+    font-size: 14px;
+}
+.card-title{
+    font-size: 17px;
+    font-weight: 700;
 
-.card-img-size{
-   width: 50px;
-   margin: auto;
-   margin-top: 10px;
+}
+.btn_back_col{
+    background-color:#33D2FD;
 }
 
-.phone_img_2nd{
-    height: 450px;
+/*! section_3 */
+.section_3{
+    height: 500px;
+    text-align: center;
 }
